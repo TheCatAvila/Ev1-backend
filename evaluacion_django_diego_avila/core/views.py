@@ -9,3 +9,6 @@ def register(request):
 
 def index(request):
     return render(request, 'core/index.html')
+
+def forms(request):
+    return render(request, 'core/forms.html')
